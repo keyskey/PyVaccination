@@ -1,13 +1,13 @@
 # PyVaccination
 Multi-agent simulation code for modeling SIR dynamics and vaccination dilemma
 
-Model setting:
+### Model setting
 1. Agents are connected with network. You can change it with any other network provided by NetworkX or even you can use your own defined network.
 2. Each season has a desease spreading term based on the (inperfect immunity) SIR model but this SIR epidemic days finish when there is no infectious people existing.
 3. At the beginning of each desease spreading season, agents can choose whether they commit vaccination or not, based on game theory.
 4. Basically vaccinators can avoid infection, but some of them might be infected. This probability is expressed with vaccination effectiveness.
 
-How to run: 
+### How to run   
 In your terminal, just type
 ```
 $ python main.py
