@@ -7,7 +7,7 @@ Multi-agent simulation code for modeling SIR dynamics and vaccination dilemma
 3. At the beginning of each desease spreading season, agents can choose whether they commit vaccination or not, based on game theory.
 4. Basically vaccinators can avoid infection, but some of them might be infected. This probability is expressed with vaccination effectiveness.
 
-### How to run   
+### How to run
 In your terminal, just type
 ```
 $ python main.py
@@ -15,4 +15,4 @@ $ python main.py
 after the calculation, you'll get output csv file named "episodex.csv".
 Then, visualize the result with the attached jupyter notebook.
 You can estimate the Final Epidemic Size (FES), Vaccination Coverage(VC), and Social Average Payoff (SAP) like following;
-![episode0](https://user-images.githubusercontent.com/39644776/52142882-576d1b80-269d-11e9-9ffb-184737d37999.png)
+![episode0](https://user-images.githubusercontent.com/39644776/59155981-064bb900-8acf-11e9-9793-196226bf89da.png)
