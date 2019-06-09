@@ -34,18 +34,3 @@ def PW_Fermi(agents):
     # Update strategy
     for agent in agents:
         agent.strategy = agent.next_strategy
-
-def count_strategy_fraction(agents):
-    """Count the fraction of vaccinators"""
-
-    fv = len([agent for agent in agents if agent.strategy == 'V'])/len(agents)
-
-    return fv
-
-def count_num_nv(agents):
-    """Count the number of non-vaccinators"""
-
-    num_nv = len([agent for agent in agents if agent.strategy == 'NV'])
-
-    return num_nv
-
